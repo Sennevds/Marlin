@@ -872,7 +872,7 @@
  * or (with LCD_BED_LEVELING) the LCD controller.
  */
 #define PROBE_MANUALLY
-#define MANUAL_PROBE_START_Z 0.2
+#define MANUAL_PROBE_START_Z 0.1
 
 /**
  * A Fix-Mounted Probe either doesn't deploy or needs manual deployment.
@@ -1608,8 +1608,8 @@
 #define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "PLA"
-#define PREHEAT_2_TEMP_HOTEND 200
-#define PREHEAT_2_TEMP_BED     60
+#define PREHEAT_2_TEMP_HOTEND 210
+#define PREHEAT_2_TEMP_BED     65
 #define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
 
 #define PREHEAT_3_LABEL       "PETG"
